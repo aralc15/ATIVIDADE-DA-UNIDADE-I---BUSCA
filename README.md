@@ -41,6 +41,7 @@ A heurística utilizada pelo A\* é a *distância euclidiana*, permitindo uma bu
 ```bash
 pip install networkx matplotlib
 
+---
 ### **2. Executar o programa**
 
 ```bash
