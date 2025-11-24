@@ -40,23 +40,53 @@ A heurística utilizada pelo A\* é a *distância euclidiana*, permitindo uma bu
 
 ```bash
 pip install networkx matplotlib
+```
 
 ---
 ### **2. Executar o programa**
 
 ```bash
 python nome_do_arquivo.py
+```
 
 ### **3. Selecionar opção no menu**
 
-1 — Executar sem trânsito
-
-2 — Executar com trânsito simulado
+- *1 — Executar sem trânsito*
+- *2 — Executar com trânsito simulado*
 
 Ao rodar o programa, serão exibidos:
 
 Melhor caminho
-
 Custo total da rota
-
 Gráfico mostrando a rota ótima em verde
+
+---
+
+## *Funcionamento do Algoritmo A*
+
+- *O A* combina:*
+- *G(n)* — custo acumulado
+- *H(n) — distância euclidiana até o destino
+- *F(n) = G(n) + H(n) — custo estimado total
+
+Essa estrutura permite que o algoritmo explore caminhos promissores e evite rotas ruins.
+
+---
+## *Objetivo Acadêmico*
+
+Este projeto foi desenvolvido para:
+- *Compreender modelagem de grafos*
+- *Aplicar o algoritmo A**
+- *Simular trânsito como penalidades de arestas*
+- *Comparar rotas com e sem congestionamento*
+- *Visualizar a resposta do algoritmo*
+- *Demonstração em Vídeo*
+
+No vídeo são apresentados:
+- *O problema*
+- *A modelagem em grafo*
+- *A implementação do A**
+- *A execução prática*
+- *Limitações e possíveis melhorias*
+
+Link do vídeo: (adicionar após upload)
