@@ -1,1 +1,42 @@
-# ATIVIDADE-DA-UNIDADE-I---BUSCA
+# *Planejamento de Rotas com Algoritmo A\**
+
+### *Projeto da disciplina de Inteligência Artificial*
+
+**Integrantes:**  
+*Ana Clara Araujo da Cruz*  
+*Cauã Veloso Oliveira*  
+*Thalita Muniz Amorim*  
+
+**Professor:** *Alex Oliveira Barradas Filho*
+
+---
+
+## *Descrição do Projeto*
+
+Este projeto implementa um sistema de *planejamento de rotas com trânsito* utilizando o algoritmo **A\*** do NetworkX.  
+As cidades são modeladas como nós de um grafo, e as estradas são representadas por arestas contendo:
+
+- *Tempo base de viagem*
+- *Penalidades de trânsito*
+- *Peso final (tempo total)*
+
+O objetivo é determinar o *caminho mais rápido* entre duas cidades, mesmo quando a rota mais curta fisicamente não é a mais eficiente devido a congestionamentos.  
+A heurística utilizada pelo A\* é a *distância euclidiana*, permitindo uma busca mais rápida e informada.
+
+---
+
+## *Tecnologias Utilizadas*
+
+- *Python 3*
+- *NetworkX* — construção e análise do grafo
+- *Matplotlib* — visualização do mapa de rotas
+- *Algoritmo A\** — busca do caminho ótimo
+
+---
+
+## *Como Executar o Projeto*
+
+### **1. Instale as dependências**
+
+```bash
+pip install networkx matplotlib
